@@ -4,6 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Navigate to `http://localhost:4200/`.
 
+## Additional Feature to a regular quickstart:
+
+### --open added automatically launch browser
+### --prod and --aot added in the build command
+### simple routing module added
+### angular material added
+### a template has been setup with sidenav and toolbar
+
 ## Commands
 
 Run `ng serve` for a dev server.  
