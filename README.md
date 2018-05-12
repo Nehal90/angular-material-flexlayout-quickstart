@@ -25,6 +25,9 @@ Example:
     Run `ng add @angular/pwa` — Turn your application into a PWA
     Run `ng add @ng-bootstrap/schematics` — Add ng-bootstrap to your application
 
+## To free a port [mackbook pro VS Code terminal issue]
+Run `sudo lsof -i tcp:4200`
+Run `kill -9 <PID>`
 
 
 
