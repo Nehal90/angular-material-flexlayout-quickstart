@@ -6,11 +6,11 @@ Navigate to `http://localhost:4200/`.
 
 ## Additional Feature to a regular quickstart:
 
-### --open added automatically launch browser
-### --prod and --aot added in the build command
-### simple routing module added
-### angular material added
-### a template has been setup with sidenav and toolbar
+##### --open added automatically launch browser
+##### --prod and --aot added in the build command
+##### simple routing module added
+##### angular material added
+##### a template has been setup with sidenav and toolbar
 
 ## Commands
 
@@ -36,6 +36,11 @@ Example:
 ## To free a port [mackbook pro VS Code terminal issue]
 Run `sudo lsof -i tcp:4200`
 Run `kill -9 <PID>`
+
+## To Do:
+
+- Add simple service for quickstart
+- Add a sidenav and toolbar template
 
 
 
