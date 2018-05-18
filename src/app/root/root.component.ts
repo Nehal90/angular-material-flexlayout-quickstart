@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatSidenav } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RootComponent implements OnInit {
 
+  @ViewChild('sideNav') sideNav: MatSidenav;
+
   title = 'app';
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleSidenav() {
+    this.sideNav.open();
   }
 
 }

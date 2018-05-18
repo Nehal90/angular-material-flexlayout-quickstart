@@ -39,8 +39,7 @@ Run `kill -9 <PID>`
 
 ## To Do:
 
-- Add simple service for quickstart
-- Add a sidenav and toolbar template
+- Add flexlayout exmaple
 
 
 

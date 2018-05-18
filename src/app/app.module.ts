@@ -10,8 +10,11 @@ import { AppComponent } from './app.component';
 import { RootComponent } from './root/root.component';
 
 // UI Libraries
-
-// import { FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatToolbarModule,
+         MatSidenavModule,
+         MatIconModule,
+         MatButtonModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,12 @@ import { RootComponent } from './root/root.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
